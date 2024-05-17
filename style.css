@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --rtc-font-family: 'Bona Nova', serif;
+
+  --rtc-color-1: #000000;
+  --rtc-color-2: #ffffff;
+  --rtc-color-3: #6b6868;
+  ---rtc-color-4: #b8b5b5;
+
+  --rtc-primary-bg: var(--rtc-color-2);
+  --rtc-secundary-bg: var(--rtc-color-1);
+  --rtc-tertiary-bg: var(---rtc-color-4);
+
+  --rtc-primary-br: 2px;
+
+  --rtc-margin-xs: 10px;
+  --rtc-margin-s: 20px;
+  --rtc-margin-m: 30px;
+  --rtc-margin-l: 40px;
+  --rtc-margin-xl: 50px;
+  --rtc-margin-section: 100px;
+
+  --rtc-padding-xs: 5px;
+  --rtc-padding-s: 20px;
+  --rtc-padding-m: 30px;
+  --rtc-padding-l: 40px;
+  --rtc-padding-xl: 50px;
+
+  --rtc-gap-xs: 10px;
+  --rtc-gap-s: 20px;
+  --rtc-gap-m: 30px;
+  --rtc-gap-l: 40px;
+  --rtc-gap-xl: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--rtc-font-family);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--rtc-color-1);
+}
+
+header {
+  display: flex;
+  top: 0%;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--rtc-color-2);
+  box-shadow: var(--rtc-color-2);
+}
+body {
+  padding: var(--rtc-padding-xs);
+  width: 100%;
+}
+.respmenu {
+  display: none;
+}
+.logo {
+  display: flex;
+  width: 160px;
+  height: 45px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  color: var(--rtc-color-1);
+  justify-content: space-between;
+  padding: var(--rtc-padding-s);
+  width: 100%;
+  gap: var(--rtc-gap-m);
+  font-weight: bolder;
+}
+.barra {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.Buscar {
+  width: 50px;
+  padding: var(--rtc-padding-xs);
+}
+.favoritos {
+  padding: 9px;
+  width: 45px;
+}
+.carrito {
+  padding: 9px;
+  width: 60px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: var(--rtc-padding-xs);
+  width: 100%;
+}
+.Novedades {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+.novedades {
+  width: 100%;
+  height: 550px;
+}
+.luxe {
+  width: 80%;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  display: flex;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.luxe p {
+  padding: var(--rtc-padding-xs);
+}
+.link {
+  color: var(--rtc-color-2);
+}
+.Comprar {
+  border: var(--rtc-primary-br);
+  font-weight: bolder;
+  width: 100px;
+  height: 30px;
+}
+.comprar {
+  text-align: start;
+}
+.estilos {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  padding: var(--rtc-padding-xs);
+  margin-bottom: 5%;
+}
+.titulo {
+  align-items: start;
+}
+.estilos a {
+  width: 200px;
+  height: 300px;
+  align-content: center;
+}
+.estilos a img {
+  object-fit: contain;
+  width: 280px;
+  height: 100%;
+}
+.regalos {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+.mujer {
+  width: 600px;
+  height: 100%;
+}
+.hombre {
+  width: 600px;
+  height: 100%;
+}
+.comprarreg {
+  align-items: end;
+  color: var(--rtc-color-1);
+}
+.titulo1 {
+  align-items: start;
+  color: var(--rtc-color-1);
+  text-emphasis-color: var(--rtc-color-1);
+}
+.informacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5%;
+  align-content: center;
+}
+.envio,
+.devoluciones,
+.seguimiento {
+  width: 100%;
+  height: 60px;
+}
+.Envio,
+.Devoluciones,
+.Seguimiento {
+  text-align: center;
+}
+.Contenido {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+.vintage {
+  width: 50%;
+  height: 100%;
+}
+.estilo {
+  width: 50%;
+  height: 130%;
+  display: flex;
+  flex-direction: column;
+}
+.tuestilo {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+}
+.tuestilo h3 {
+  font-size: 425%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+
+.tuestilo p {
+  text-align: center;
+  font-size: large;
+}
+.imagen {
+  width: 50%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+}
+.chicoimagen {
+  width: 100%;
+  height: 30%;
+}
+.chicaimagen {
+  width: 100%;
+  height: 30%;
+}
+.contenido {
+  width: 100%;
+  height: 100%;
+}
+.Registrate {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.never {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 70%;
+}
+.never p {
+  text-align: center;
+  font-size: medium;
+}
+.Descuento {
+  width: 100%;
+  height: 110%;
+}
+.logo2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 110%;
+}
+.button {
+  height: 30px;
+  width: 500px;
+  color: var(--rtc-color-2);
+  background-color: var(--rtc-color-1);
+  justify-content: center;
+  margin: var(--rtc-margin-l);
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.footer1,
+.footer2,
+.ayuda,
+.acercade {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5%;
+}
+.footer1 {
+  width: 100%;
+  padding: var(--rtc-padding-s);
+}
+.footer1 h5 {
+  font-size: large;
+  margin-bottom: 5%;
+}
+.footer1 p {
+  font-size: medium;
+}
+.footer2 {
+  width: 100%;
+  padding: var(--rtc-padding-s);
+  justify-content: space-around;
+}
+.firstli,
+.find {
+  margin-bottom: 2%;
+}
+.find {
+  color: var(--rtc-color-1);
+}
+.rrss {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5%;
+  border: 1px solid var(--rtc-color-3);
+}
+.instagram {
+  width: 30px;
+  object-fit: cover;
+}
+.twitter {
+  width: 30px;
+}
+.youtube {
+  width: 30px;
+}
+.tiktok {
+  width: 30px;
+}
+.Ayuda {
+  padding: var(--rtc-padding-s);
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  width: 100%;
+}
+
+.acercade {
+  padding: var(--rtc-padding-s);
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 700px) {
+  .menu {
+    display: none;
+  }
+  .favoritos {
+    display: none;
+  }
+  .respmenu {
+    display: block;
+    width: 100%;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .hamburguesa {
+    width: 20px;
+    margin: var(--rtc-margin-s);
+    padding-left: 0;
+  }
+  .logo {
+    align-items: center;
+    margin: var(--rtc-margin-xs);
+  }
+  .Novedades {
+    margin-top: 10%;
+  }
+  .novedades {
+    width: 100%;
+    height: 100%;
+  }
+  .luxe {
+    display: flex;
+    align-items: center;
+    top: 12%;
+    left: 4%;
+    font-size: smaller;
+  }
+  .Comprar {
+    width: 30%;
+  }
+  .comprar {
+    width: 100%;
+  }
+  .estilos {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .regalos {
+    flex-direction: column;
+    width: 100%;
+  }
+  .mujer {
+    width: 100%;
+  }
+  .hombre {
+    width: 100%;
+  }
+  .informacion {
+    flex-direction: column;
+  }
+  .Contenido {
+    flex-direction: column;
+    width: 90%;
+  }
+  .vintage {
+    width: 100%;
+    height: 50%;
+  }
+  .tuestilo h3 {
+    font-size: larger;
+  }
+  .imagen {
+    width: 100%;
+  }
+  .chicaimagen,
+  .chicoimagen {
+    width: 100%;
+    height: 100%;
+  }
+  .tuestilo {
+    display: none;
+  }
+  .Registrate {
+    flex-direction: column;
+  }
+  .imagen {
+    margin-bottom: 30%;
+  }
+  .button {
+    margin: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+  }
+  .Contenido {
+    margin: var(--rtc-margin-xs);
+  }
+  .Registrate {
+    margin: var(--rtc-margin-m);
+    width: 90%;
+  }
+  .never {
+    align-items: center;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .Descuento {
+    width: 100%;
+  }
+  .logo2 {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  * {
+    width: 100%;
+  }
+}
